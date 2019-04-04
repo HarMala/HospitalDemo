@@ -8,7 +8,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#40FF6464"  >
+        android:background="#4000FF55"  >
 
         <com.jjoe64.graphview.GraphView
             android:id="@+id/skincon_data_graph"
