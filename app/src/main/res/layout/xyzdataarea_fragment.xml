@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#40FF6464" >
+
+        <!-- <TextView
+             android:id="@+id/bp_value"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_alignParentTop="true"
+             android:layout_marginTop="30dp"
+             android:layout_marginRight="50dp"
+             android:text="120/80"
+             android:textColor="#FFFFFF"
+             android:textSize="40sp" /> -->
+
+        <TextView
+            android:id="@+id/xyz_x"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity = "center_horizontal|end"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="150dp"
+            android:text="X"
+            android:textColor="#00FFFF"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/xyz_slash1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity = "center_horizontal|end"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="125dp"
+            android:text="/"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/xyz_y"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity = "center_horizontal|start"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="80dp"
+            android:text="Y"
+            android:textColor="#F9F908"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/xyz_slash2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity = "center_horizontal|end"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="75dp"
+            android:text="/"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/xyz_z"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity = "center_horizontal|start"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="128dp"
+            android:text="Z"
+            android:textColor="#00FF22"
+            android:textSize="35sp" />
+
+
+        <TextView
+            android:id="@+id/xyz_x_value"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity = "center_horizontal|end"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="145dp"
+            android:text="X"
+            android:textColor="#00FFFF"
+            android:textSize="20sp" />
+
+        <!--<TextView
+            android:id="@+id/xyz_slash3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity = "center_horizontal|end"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="125dp"
+            android:text="/"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />-->
+
+        <TextView
+            android:id="@+id/xyz_y_value"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity = "center_horizontal|end"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="93dp"
+            android:text="Y"
+            android:textColor="#F9F908"
+            android:textSize="20sp" />
+
+        <!--<TextView
+            android:id="@+id/xyz_slash4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity = "center_horizontal|end"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="80dp"
+            android:text="/"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />-->
+
+        <TextView
+            android:id="@+id/xyz_z_value"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity = "center_horizontal|end"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="43dp"
+            android:text="Z"
+            android:textColor="#00FF22"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/acceleration"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:gravity = "center_vertical|end"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="32dp"
+            android:text="m/s²"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/bp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="33dp"
+            android:gravity = "center_horizontal|end"
+            android:text="ACCELEROMETER"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

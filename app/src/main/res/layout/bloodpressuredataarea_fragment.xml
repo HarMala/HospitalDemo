@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#40FF6464" >
+
+       <!-- <TextView
+            android:id="@+id/bp_value"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp"
+            android:text="120/80"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp" /> -->
+
+        <TextView
+            android:id="@+id/bp_syst_value"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity = "center_horizontal|end"
+            android:layout_marginTop="33dp"
+            android:layout_marginRight="135dp"
+            android:text=""
+            android:textColor="#00FFFF"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/bp_slash"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity = "center_horizontal|end"
+            android:layout_marginTop="28dp"
+            android:layout_marginRight="120dp"
+            android:text="/"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/bp_diast_value"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity = "center_horizontal|start"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="33dp"
+            android:layout_marginLeft="77dp"
+            android:text=""
+            android:textColor="#F9F908"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/pressure"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:gravity = "center_vertical|end"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="35dp"
+            android:text="mmHg"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/bp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="33dp"
+            android:gravity = "center_horizontal|end"
+            android:text="BLOOD PRESSURE"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
