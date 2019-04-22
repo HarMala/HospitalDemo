@@ -10,17 +10,6 @@
         android:layout_height="match_parent"
         android:background="#40FF6464" >
 
-        <!-- <TextView
-             android:id="@+id/bp_value"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             android:layout_alignParentTop="true"
-             android:layout_marginTop="30dp"
-             android:layout_marginRight="50dp"
-             android:text="120/80"
-             android:textColor="#FFFFFF"
-             android:textSize="40sp" /> -->
-
         <TextView
             android:id="@+id/xyz_x"
             android:layout_width="match_parent"

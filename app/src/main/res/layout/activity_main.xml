@@ -36,16 +36,6 @@
         android:layout_marginTop="46dp"
         android:layout_marginEnd="151dp" />
 
-    <!--<fragment
-        android:id="@+id/respdata"
-        android:name="com.example.hahamala.hospitaldemo.RespDataFragment"
-        android:layout_width="197dp"
-        android:layout_height="90dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="false"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="20dp"/> -->
-
     <fragment
         android:id="@+id/skincondata"
         android:name="com.example.hahamala.hospitaldemo.SkinConductanceDataFragment"
@@ -55,16 +45,6 @@
         android:layout_alignParentEnd="false"
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"/>
-
-    <!--<fragment
-        android:id="@+id/bloodpressuredata"
-        android:name="com.example.hahamala.hospitaldemo.BloodPressureDataFragment"
-        android:layout_width="197dp"
-        android:layout_height="90dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="21dp"
-        android:layout_marginEnd="220dp" />-->
 
     <fragment
         android:id="@+id/xyzdata"
@@ -86,17 +66,6 @@
         android:layout_marginTop="122dp"
         android:layout_marginEnd="10dp" />
 
-
-    <!--<fragment
-        android:id="@+id/bp_datagraph"
-        android:name="com.example.hahamala.hospitaldemo.BloodPressureDataGraphFragment"
-        android:layout_width="197dp"
-        android:layout_height="90dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="122dp"
-        android:layout_marginEnd="220dp" /> -->
-
     <fragment
         android:id="@+id/xyz_datagraph"
         android:name="com.example.hahamala.hospitaldemo.XYZDataGraphFragment"
@@ -106,17 +75,6 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="122dp"
         android:layout_marginEnd="220dp" />
-
-    <!--<fragment
-        android:id="@+id/resp_datagraph"
-        android:name="com.example.hahamala.hospitaldemo.RespDataGraphFragment"
-        android:layout_width="197dp"
-        android:layout_height="90dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="122dp"
-        android:layout_marginEnd="433dp" />-->
 
     <fragment
         android:id="@+id/skincon_datagraph"
@@ -128,17 +86,6 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="122dp"
         android:layout_marginEnd="433dp" />
-
-
-    <!--<fragment
-        android:id="@+id/respdata_lungs"
-        android:name="com.example.hahamala.hospitaldemo.RespDataLungs"
-        android:layout_width="41dp"
-        android:layout_height="45dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="false"
-        android:layout_marginStart="13dp"
-        android:layout_marginTop="50dp" />-->
 
     <fragment
         android:id="@+id/skincondata_hand"
